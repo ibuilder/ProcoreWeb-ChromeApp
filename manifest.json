@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Procore Web Chrome App",
+  "minimum_chrome_version": "37",
+  "version": "1.0",
+  "kiosk_enabled" : true,
+  "icons": {
+    "16": "icon_16.png",
+    "128": "icon_128.png"
+  },
+  "app": {
+    "background": {
+      "scripts": ["config.js", "main.js"]
+    }
+  },
+  "permissions": [
+    "webview"
+  ]
+}
